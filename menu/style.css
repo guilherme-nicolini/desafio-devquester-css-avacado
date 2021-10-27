@@ -1,0 +1,139 @@
+html{
+    width: 1440;
+    height: 426;
+}
+
+.container{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    
+}
+ 
+
+
+.logo img {
+    width: 48px;
+
+    
+    
+}
+.logo h1{
+    font-size: 20px;
+    color: black;
+    width: 80px;
+    height: 24px;
+    font-weight: 800;
+    
+    display: inline-block;
+    
+    
+   
+
+    
+}
+
+
+
+
+.right-content  {
+    display: flex;
+}
+
+.menu ul{
+    display: flex;
+    font-size: 15px;
+    
+}
+
+.menu li {
+    
+    margin-left: 35px;
+
+    
+}
+
+.menu ul li a {
+    color: black;
+
+}
+
+.menu ul a:hover{
+    background-color:#5BC241 ;
+    color: white;
+}
+
+.btn{
+    
+    margin-left: 35px;
+    background-color: #5BC241;
+    color: white;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 10px;
+    
+}
+
+@media(max-width:375px){
+    
+    .container{
+        padding: 0;
+        text-align: center;
+        display: block;
+    }
+    
+    
+    
+    .logo {
+        padding-top: 40px;
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 100px;
+        
+    }
+    .logo h1{
+        font-size: 40px;
+        width: 160px;
+        height: 47px;
+        
+    }
+    
+    
+    
+    .right-content{
+        display: block;
+        text-align: center;
+        
+    
+    }
+
+
+    .menu ul {
+        display: block;
+        
+        
+    }
+
+    .menu li{
+        font-size: 40px;
+        margin-bottom: 40px;
+         width: 100%;
+       
+        
+    }
+
+    .btn{
+        margin-top: 30px;
+        padding: 15px;
+
+    }
+
+
+
+    
+      
+}
